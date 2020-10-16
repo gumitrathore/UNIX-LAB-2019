@@ -6,7 +6,8 @@ while [ $i -lt $a ]
 do
   s=$((a%i))
   if [ $s -eq $z ]
-  then 
+  then
+  //for all
   echo "Not Prime"
   exit
   else
